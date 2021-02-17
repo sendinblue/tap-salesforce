@@ -31,7 +31,7 @@ class SalesforceSyncCanary(SalesforceBaseTest):
             'FeedAttachment',  # MALFORMED_QUERY must be admin to query
             'FeedComment',  # MALFORMED_QUERY
             'FeedRevision',  # MALFORMED_QUERY
-            'FeedItem',  # MALFORMED_QUERY
+            # 'FeedItem',  # MALFORMED_QUERY
             'EntitySubscription',  # MALFORMED_QUERY
             'ForecastingQuota',  # INSUFFICIENT_ACCESS
             'DatacloudAddress',  # EXTERNAL_OBJECT_EXCEPTION
